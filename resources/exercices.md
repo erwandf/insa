@@ -34,8 +34,8 @@ Pour aller plus loin : à partir du répertoire triangle du dépôt git, implém
 # TP 2 - git / yarn / QUnit - mocha / grunt :
 Vous utiliserez au choix [qunit](https://qunitjs.com/) ou [mocha](https://mochajs.org/).
 * Initialiser un nouveau dépôt git pour ce TP
-* initialiser le projet avec bower, installer qunit ou mocha en dépendance
-* configuration git : ignorer bower_components
+* initialiser le projet avec yarn, installer qunit ou mocha en dépendance
+* configuration git : ignorer node_modules (ajouter le répertoire dans .gitignore)
 * créer 4 répertoires : js / tests / html / dist
 
 Pour l’exercice suivant, tous les tests seront dans le même fichier (tests/tests.js), chaque fonction dans un fichier séparé dans le répertoire js/. Pour chaque fonction, multiplier les cas de test (minimum 3 par fonction).
