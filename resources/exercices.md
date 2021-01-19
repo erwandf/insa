@@ -1,3 +1,5 @@
+# Pré-requis
+* installer git, yarn, php, java sur sa machine
 # TP 1 - git / PHPUnit
 * forker le dépôt https://github.com/erwandf/insa
 * le cloner.
@@ -6,7 +8,7 @@ Nous utiliserons le squelette disponible dans poneys, suivre les instructions di
 
 ## Tâches à réaliser
 Vous allez implémenter les fonctionnalités suivantes, en utilisant la méthode du TDD quand ce sera possible (pour mémoire : RED -> GREEN -> refactor).
-* *ajout de poneys dans le champ
+* ajout de poneys dans le champ
 * retirer des poneys du champ (on ne peut avoir une quantité négative) : retourner **une
 exception​​** et la tester
 * tester la méthode removePoneyFromField() avec un dataProvider
