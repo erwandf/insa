@@ -32,6 +32,9 @@ des places sont disponibles, sinon FALSE.
 Pour aller plus loin : à partir du répertoire triangle du dépôt git, implémenter la validation d’un triangle. Créer les classes Triangle et TriangleTest
 
 # TP 2 - git / yarn / QUnit - mocha / grunt :
+## Pré-requis
+Si besoin de monter la version de node sur votre machine, suivre la procédure ici : https://github.com/nodesource/distributions/blob/master/README.md
+
 Vous utiliserez au choix [qunit](https://qunitjs.com/) ou [mocha](https://mochajs.org/).
 * Initialiser un nouveau dépôt git pour ce TP
 * initialiser le projet avec yarn, installer qunit ou mocha en dépendance
@@ -72,14 +75,15 @@ fibo(15) = 610)
 * validation d’une adresse mail (utiliser une regex)
 
 # TP 3 - Jenkins - Intégration continue
-* télécharger jenkins depuis ​http://jenkins-ci.org/
+## Pré-requis
+* télécharger jenkins depuis https://www.jenkins.io/download/
 * démarrer jenkins avec la commande suivante :​ ​`java -jar jenkins.war`
 * se connecter à l’adresse suivante : ​http://localhost:8080/
 * installer les plugins nécessaires (ex: git, junit, etc...)
 
 ## Exercice 1
 * Créer un nouveau projet, et le configurer avec le dépôt suivant :
-https://github.com/sebastianbergmann/money
+https://github.com/moneyphp/money
 * configurer le projet de manière à exécuter les tests phpunit et générer le fichier XML de résultats
 * gérer la publication des résultats
 
@@ -121,9 +125,9 @@ Vous utiliserez pour cela une tâche grunt.
 
 ## Pour aller plus loin
 Mettre en place sur votre instance Jenkins un test automatisé de performance pour un site Web.
-Pour cela utiliser le projet [google lighthouse](https://github.com/GoogleChrome/lighthouse)
-Définir des Performance budget et les implémenter.
-Quelques pistes : https://css-tricks.com/continuous-performance-analysis-with-lighthouse-ci-and-github-actions/
+* Pour cela utiliser le projet [google lighthouse](https://github.com/GoogleChrome/lighthouse)
+    * Définir des Performance budget et les implémenter.
+    * Quelques pistes : https://css-tricks.com/continuous-performance-analysis-with-lighthouse-ci-and-github-actions/
 
 # TP 5 - Tests d’interface
 ## 1 Sélecteurs CSS
