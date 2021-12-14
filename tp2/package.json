@@ -6,5 +6,14 @@
   "repository": "https://github.com/erwandf/insa",
   "author": "EDF",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "qunit"
+  },
+  "dependencies": {
+    "qunit": "^2.14.0"
+  }
 }

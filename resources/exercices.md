@@ -131,19 +131,21 @@ Mettre en place sur votre instance Jenkins un test automatisé de performance po
 
 # TP 5 - Tests d’interface
 ## 1 Sélecteurs CSS
-* Se connecter à l’adresse http://gwt.google.com/samples/Mail/Mail.html
-* En utilisant le mode développeur de Chrome ou Firefox, trouvez les sélecteurs qui vous permettront de valider :
-    * L’adresse email sélectionnée
-    * La tâche “Get funding”
-    * Le sujet du 5ème mail de la liste dans la liste des mails
-    * Le sujet du 5ème mail dans l’en-tête du message
-    * L’adresse mail de Bob Saget
+* Se connecter à l’adresse https://example.cypress.io/
+* En utilisant le mode développeur de votre navigateur, trouvez les sélecteurs qui vous permettront de valider :
+    * le titre Utilities
+    * l'élément du menu "Navigation"
+    * le lien vers docs.cypress.io
+    * l'élément contenant le texte 'GitHub'
+## 2 Automatisation avec webdriver : utilisation du framework cypress (https://www.cypress.io/)
+* Configurer votre espace de travail :
+    * https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements
 
-## 2 Automatisation avec webdriver : utilisation du framework webdriver.io (http://webdriver.io/)
-* Faire fonctionner l’exemple décrit sur la page du projet (https://webdriver.io/docs/gettingstarted.html)
 * À partir de cette page ​http://todomvc.com/examples/react/, écrire un scénario :
     * comment tester que mon application fonctionne ?
     * comment valider les différentes fonctionnalités ?
     * présentez votre scénario avant l’implémentation
     * l’implémenter
     * Ajouter les tests dans votre outil d’intégration continue
+
+Documentation pour accéder aux éléments : https://example.cypress.io/
