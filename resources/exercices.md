@@ -2,7 +2,7 @@
 * installer git, yarn, php, java sur sa machine
 # TP 1 - git / PHPUnit
 * forker le dépôt https://github.com/erwandf/insa
-* le cloner.
+* le cloner en local.
 
 Nous utiliserons le squelette disponible dans poneys, suivre les instructions disponibles dans le fichier [readme](poneys/README.md)
 
@@ -74,13 +74,29 @@ guichet, numéro de compte, clé RIB) en entrée et qui valide si le RIB fourni 
 fibo(15) = 610)
 * validation d’une adresse mail (utiliser une regex)
 
-# TP 3 - Jenkins - Intégration continue
-## Pré-requis
+# TP 3 - Tests d'API
+À l'aide du site {JSON} Placeholder http://jsonplaceholder.typicode.com/
+
+* Avec postman, thunderclient ou autre, configurer l'outil pour effectuer
+    * un appel GET
+    * un appel POST
+* en utilisant PHPUnit ou jest, implémenter les mêmes tests
+
+# TP 4 - Jenkins - Intégration continue
+## Pré-requis : Installation docker
+### Téléchargement direct (nécessite java 11)
 * télécharger jenkins depuis https://www.jenkins.io/download/
 * démarrer jenkins avec la commande suivante :​ ​`java -jar jenkins.war`
 * se connecter à l’adresse suivante : ​http://localhost:8080/
 * installer les plugins nécessaires (ex: git, junit, etc...)
 
+### Via docker
+````
+ docker run -p 8080:8080 -p 50000:50000 jenkins
+````
+https://hub.docker.com/r/jenkins/jenkins
+
+----
 ## Exercice 1
 * Créer un nouveau projet, et le configurer avec le dépôt suivant :
 https://github.com/moneyphp/money
@@ -110,7 +126,16 @@ votre dépôt de sources.
 ## Exercice 6
 * Configurer les tests javascript de manière à générer un fichier xml de résultat (si utilisation de qunit, utiliser le plugin grunt-qunit-junit). Apporter les modifications nécessaires à l’exercice 3 et publier les résultats.
 
-# TP 4 - Performance web
+## Exercice 7
+* Configurer un nouveau job pour exécuter les tests implémentés au TP 3
+## Exercice 8
+Au choix :
+* en démarrant une deuxième instance de jenkins sur votre machine, déclarer celle-ci en tant que noeud
+* utiliser l'instance d'un collègue en tant que noeud
+Puis :
+* Exécuter un job sur ce noeud
+
+# TP 5 - Performance web
 ## Exercice 1
 * depuis le répertoire sprites
 * À partir du code, créer un sprite et modifier la page index.html pour utiliser ce sprite.
@@ -129,7 +154,7 @@ Mettre en place sur votre instance Jenkins un test automatisé de performance po
     * Définir des Performance budget et les implémenter.
     * Quelques pistes : https://css-tricks.com/continuous-performance-analysis-with-lighthouse-ci-and-github-actions/
 
-# TP 5 - Tests d’interface
+# TP 6 - Tests d’interface
 ## 1 Sélecteurs CSS
 * Se connecter à l’adresse https://example.cypress.io/
 * En utilisant le mode développeur de votre navigateur, trouvez les sélecteurs qui vous permettront de valider :
