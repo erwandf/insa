@@ -130,8 +130,8 @@ votre dépôt de sources.
 * Configurer un nouveau job pour exécuter les tests implémentés au TP 3
 ## Exercice 8
 Au choix :
-* en démarrant une deuxième instance de jenkins sur votre machine, déclarer celle-ci en tant que noeud
-* utiliser l'instance d'un collègue en tant que noeud
+* soit en démarrant une deuxième instance de jenkins sur votre machine, déclarer celle-ci en tant que noeud
+* soit en utilisant l'instance d'un collègue en tant que noeud
 Puis :
 * Exécuter un job sur ce noeud
 
