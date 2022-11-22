@@ -14,6 +14,7 @@
 * https://medium.com/leboncoin-engineering-blog/testing-at-scale-61461d5a7e26
 * https://blog.octo.com/introduire-une-culture-de-la-performance-web-sur-son-projet/
 * https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/introduction-to-ci.md
+* https://medium.com/the-making-of-whereby/how-to-kill-software-quality-in-5-steps-be5718acab90#.s9iw7woxq
 
 ## Comptes Twitter
 * https://twitter.com/paul_irish
